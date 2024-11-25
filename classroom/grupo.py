@@ -22,10 +22,7 @@ class Grupo:
         self.listadoAlumnos = self.listadoAlumnos + lista
 
     def __str__(self):
-        if self._asignaturas != None and self.listadoAlumnos != None:
-            cadena = f"Grupo de estudiantes: {self._grupo},{self._asignaturas},{self.listadoAlumnos}"
-        else:
-            cadena = f"Grupo de estudiantes: {self._grupo}"    
+        cadena = f"Grupo de estudiantes: {self._grupo}"    
         return cadena
 
     @classmethod
